@@ -58,16 +58,28 @@
       </section>
 
 
+<section class="contact-form-holder">
+    
+        <form id="survey-form" action="/js/main.js" method="POST">
+            <h2 id="title">Send a Note!</h2>
+           
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
 
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+    
+            <textarea name="textArea" id="textArea" cols="" rows="">Comments...</textarea>
+       
+    
+            <button id="submit">Submit</button>
+          </form>
+    
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
+        </section>
 
-    <section id="contact-form">
-        <form class="contact-form" id="post-form" action="js/main.js" method="post">
-            <input type="text" name="name" placeholder="Your Name"><br> 
-            <input type="email" name="email" placeholder="Your Email"><br>
-            <input type="message" name="msg" placeholder="Message"><br> 
-            <input type="submit" value="Submit">
-        </form>
-
-    </section>
+        <footer>
+            &copy;2020 Ashley Elowsky
+        </footer>
+    
 </body>
 </html>

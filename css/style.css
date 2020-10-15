@@ -96,35 +96,67 @@ figure img {
 }
 figure img:hover {
     opacity: 0.4;
-    /* filter: alpha(opacity=100); */
 }
 
 
 
-
-/* .contact-form-half {
-    height: 70vh;
-    width: auto;
-    border-radius: 5px;
-}
-
-
-
-.floatRight {
-    float: right;
-}
-
-.floatLeft {
-    float: left;
-} */
-
-
-.contact-form {
+.contact-form-holder {
     background: url("../images/limone-2866245_1920.jpg") no-repeat center center fixed; 
     background-size: cover; 
-    padding-top: 32%;
-    padding-bottom: 1%;
+    padding: 3% 0 0 0;
 
+}
+
+/* beginning of form */
+#title, #description {
+    text-align: center;
+    color: rgb(243, 249, 250);
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgb(242, 246, 247);
+    font-family: cursive;
+    font-size: 150%; 
+}
+
+#title {
+    font-size: 250%;
+    color: rgb(26, 94, 110);
+}
+
+#survey-form {
+    margin: 0 auto;
+    padding: 2%;
+    width: 45%;
+    border-radius: 5%;
+    background-color: rgba(210, 210, 211, 0.842);
+}
+
+
+
+#name, #email, textarea, button {
+   border: none;
+   border-radius: 5px;
+    padding: 2%;
+    margin: 1% 0;
+    width: 98%;
+    margin-bottom: 4%;
+}
+
+button {
+    background: rgba(26, 94, 110, 0.8);
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+/* end of form */
+
+
+/* footer */
+
+footer {
+    padding: 2% 0;
+    text-align: center;
+    background: rgba(26, 94, 110, 0.8);
+    color: white;
 }
 
 @media screen and (max-width: 400px) {
