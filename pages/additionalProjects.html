@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Ashley Elowsky | Additional Projects</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen" />
+    <title>Ashley Elowsky | Web Developer</title>
 </head>
 <body>
     <nav>
-        <span class="logo">Ashley Elowsky | Web Developer</span>
+        <span class="logo"> <a href="../index.html"> Ashley Elowsky | Web Developer </a></span>
         <ul>
             <li> <a href="#contact"> Get in Touch</a></li>
             <li> <a href="#projects"> Projects</a></li>
@@ -16,59 +17,70 @@
     </nav>
     <div class="clearFloat"></div>
     <header class="page-top">
-        <h1>Additional Projects...</h1>
+        <h1>You never know where the road may take you...</h1>
+
     </header>
-
-    <section class="projects" id="projects">
-        <figure> <img src="../images/womanPainting1.jpg" alt="restaurant project"/> 
-            <a target="_blank" href="https://immense-island-22576.herokuapp.com/contact.html"> 
-                <h3>Restaurant Project</h3>  </a>
+    <section class="wrapper">
+        <h2>Additional Projects... </h2>
         
+        <section class="projects" id="projects">
+            
+            <figure class="mobile800"> <a target="_blank" href="https://elowskya.github.io/code-playground/">
+                <img src="../images/projects/pilates3.jpg"alt="web project for Pilates website"/>
+                <h3>Pilates Website</h3> </a>
+            </figure>
+            
+            
+          <figure> <a target="_blank" href="https://elowskya.github.io/dubSite/index.html">
+            <img src="../images/projects/dubliner.jpg" alt="web project for The Dubliner" />
+            <h3>Restaurant Website</h3></a>
+    </figure>
+    
+    
+    <figure> <img src="../images/projects/myCode.jpg" alt="javaScript example"/> 
+        <a target="_blank" href="https://elowskya.github.io/javaScriptGames/pages/gridGenerator.html"> 
+            <h3>Javascript Example</h3>  </a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=aQLAbcodzqA"> <h4>Youtube Tutorial</h4></a> 
         </figure>
-
-        <figure> <a target="_blank" href="https://elowskya.github.io/dubSite/index.html">
-          <img src="../images/womanPainting1.jpg" alt="web project for The Dubliner" />
-        <h3>Restaurant Website</h3>
-        </a>
-        </figure>
-
-        <figure class="hiddenMobile"> <a target="_blank" href="https://elowskya.github.io/code-playground/">
-          <img src="../images/womanPainting1.jpg"alt="web project for Pilates website"/>
-          <h3>Pilates Website</h3> </a>
-        </figure>
-
+        
         <figure> <a target="_blank" href="#"> <h4>C++ Banking Application</h4></a>
-          <img src="../images/womanPainting1.jpg" alt="c++ banking application" />
+            <img src="../images/projects/matrix-2502954_12801.jpg" alt="c++ banking application" />
         </figure>
-
-        <figure class="hiddenMobile"> <a target="_blank" href="https://elowskya.github.io/jekyll-portfolio/"> <h4>Jekyll Blog Site</h4></a>
-          <img src="../images/womanPainting1.jpg" alt="Jekyll blog site" />
+        
+        
+        <figure> <a target="_blank" href="https://elowskya.github.io/jekyll-portfolio/"> <h4>Jekyll Blog Site</h4></a>
+            <img src="../images/projects/jekyll3.jpg" alt="Jekyll blog site" />
         </figure>
+        
+    </section>
+    
+    
+    <h2 class="floatLeft">Let's Connect</h2> 
+    <ul class="social hiddenMobile">
+        <li><a href="https://github.com/elowskya" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashleyelowsky/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
 
-        <figure class="hiddenMobile"> <a target="_blank" href="#"> <h4>And More Projects...</h4></a>
-          <img src="../images/womanPainting1.jpg" alt="additional projects" />
-        </figure>
-      </section>
-
-
-<section class="contact-form-holder" id="contact">    
-        <form id="survey-form" action="/js/main.js" method="POST">
+    <div class="clearFloat"></div>
+    <section class="contact-form-holder" id="contact">   
+        <form id="survey-form" action="../js/main.js" method="POST">
             <h2 id="title">Send a Note!</h2>
-           
+            
             <input type="text" name="name" id="name" placeholder="Your Name" required>
             <input type="email" name="email" id="email" placeholder="Your Email" required>
             <textarea name="textArea" id="textArea" cols="" rows="">Comments...</textarea>
-       
+            
             <button id="submit">Submit</button>
-          </form>
+        </form>
+        
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+    </section>
     
-          <div>&nbsp;</div>
-          <div>&nbsp;</div>
-        </section>
-
-        <footer>
-            &copy;2020 Ashley Elowsky
-        </footer>
-    
+    <footer>
+        &copy;2020 Ashley Elowsky
+    </footer>
+</section>
+<script src="https://use.fontawesome.com/eb43aa6040.js"></script>
 </body>
 </html>

@@ -63,7 +63,6 @@ h1 {
 .thirtyPercent {
     display: inline-block;
     width: 33%;
-    height: 65vh;
     border-radius: 5%;
     
 }
@@ -78,28 +77,23 @@ main {
     z-index: 0;
 }
 
-/* main h2 {
-    position: absolute;
-    top: 43%;
-    right: 40%;
-    z-index: 2;
-    /* color: white; */
-    /* background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.5%;
-}  */
 
 .projects h2, main h2, .wrapper h2 {
-    color: black;
     color: rgb(26, 94, 110);
-    font-size: 300%;
+    font-size: 7vh;
     padding: 2% 0;
     text-align: center;
+}
+
+.floatLeft {
+    float: left;
+    margin-left: 30vw;
 }
 
 main .loweredText {
     position: absolute;
     top: 58%;
-    right: 18%;
+    right: 19%;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
@@ -109,8 +103,7 @@ main .loweredText {
 
 
 .projects {
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 0 1%;
 }
 
 figure {
@@ -155,6 +148,28 @@ figure img:hover {
     opacity: 0.4;
 }
 
+
+
+.social li {
+    float: left;
+    font-size: 7vh;
+    padding: 2% 2%;
+
+}
+
+.social a {
+    border: 2px solid #FFF;
+    color: rgb(26, 94, 110);
+    float: left;
+    /* height: 35px;
+    width: 35px; */
+}
+
+
+
+.social a:hover {
+    color: rgba(187, 177, 197, 0.9);
+}
 
 
 .contact-form-holder {
@@ -213,16 +228,58 @@ footer {
     padding: 2% 0;
     text-align: center;
     background: rgba(26, 94, 110, 0.8);
-    /* background:rgba(187, 177, 197, 0.9);
-    color: rgb(26, 94, 110) */
+}
+
+@media screen and (min-width: 400px) and (max-width: 1009px) {
+    main .loweredText {
+        font-size: 150%;
+        position: static;
+     }
+
+   .thirtyPercent {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 4px;
+}
+
+    .social.hiddenMobile {
+        display: none;
+    }
+    .hiddenMobile2 {
+        display: none;
+    }
+
+    .floatLeft {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    nav {
+        padding: 5% 0;
+        text-align: center;
+    }
+    nav ul li {
+        display: none;
+    }
+    
+    .logo {
+        float: none;
+    }
+
+    main .loweredText {
+        font-size: 120%;
+     }
     .thirtyPercent {
         display: block;
         width: 100%;
-        height: 50vh;
         margin-bottom: 4px;
+    }
+
+    .hiddenMobile400 {
+        display: none;
     }
 
     main h2 {
@@ -238,4 +295,11 @@ footer {
     .hiddenMobile {
         display: none;
     }
+
+    .floatLeft {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
 }

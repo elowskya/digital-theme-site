@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen" />
     <title>Ashley Elowsky | Web Developer</title>
 </head>
 <body>
@@ -23,9 +24,9 @@
 
     <main>
         <h2>But Persistence, Inclusion, and Dedication... </h2>
-        <img class="thirtyPercent opacity hiddenMobile" src="images/train-1728537_1280.jpg" alt="">
-        <img class="thirtyPercent" src="images/sailing-boat-5372833_1280.jpg" alt="">
-        <img class="thirtyPercent hiddenMobile" src="images/pexels-emre-kuzu-4503763.jpg" alt="">
+        <img class="thirtyPercent opacity hiddenMobile400" src="images/train-1728537_450px.jpg" alt="">
+        <img class="thirtyPercent" src="images/sailing-boat-5372833_450px.jpg" alt="">
+        <img class="thirtyPercent hiddenMobile hiddenMobile2" src="images/pexels-emre-kuzu-450px.jpg" alt="">
         <h2 class="loweredText">Can lead to a story worth telling.</h2>
     </main>
 
@@ -33,24 +34,22 @@
         <section class="projects" id="projects">
             <h2>Featured Projects</h2>
             
-            <figure class="hiddenMobile"> <a target="_blank" href="https://elowskya.github.io/code-playground/">
+            <figure class="hiddenMobile mobile800"> <a target="_blank" href="https://elowskya.github.io/code-playground/">
                 <img src="images/projects/pilates3.jpg"alt="web project for Pilates website"/>
                 <h3>Pilates Website</h3> </a>
             </figure>
             
             
-          <figure> <a target="_blank" href="https://elowskya.github.io/dubSite/index.html">
+          <figure class="hiddenMobile"> <a target="_blank" href="https://elowskya.github.io/dubSite/index.html">
             <img src="images/projects/dubliner.jpg" alt="web project for The Dubliner" />
-            <h3>Restaurant Website</h3>
-        </a>
+            <h3>Restaurant Website</h3></a>
     </figure>
     
     
     <figure> <img src="images/projects/myCode.jpg" alt="javaScript example"/> 
         <a target="_blank" href="https://elowskya.github.io/javaScriptGames/pages/gridGenerator.html"> 
             <h3>Javascript Example</h3>  </a>
-            <a target="_blank" href="https://www.youtube.com/watch?v=aQLAbcodzqA"> <h4>Youtube Tutorial</h4></a>
-            
+            <a target="_blank" href="https://www.youtube.com/watch?v=aQLAbcodzqA"> <h4>Youtube Tutorial</h4></a> 
         </figure>
         
         <figure> <a target="_blank" href="#"> <h4>C++ Banking Application</h4></a>
@@ -59,16 +58,22 @@
         
         
         <figure class="hiddenMobile"> <a target="_blank" href="https://elowskya.github.io/jekyll-portfolio/"> <h4>Jekyll Blog Site</h4></a>
-            <img src="images/projects/jekyll2.jpg" alt="Jekyll blog site" />
+            <img src="images/projects/jekyll3.jpg" alt="Jekyll blog site" />
         </figure>
         
-        <figure class="hiddenMobile"> <a target="_blank" href="#"> <h4>And More...</h4></a>
+        <figure> <a target="_blank" href="pages/additionalProjects.html"> <h4>And More...</h4></a>
             <img src="images/womanPainting1.jpg" alt="additional projects" />
         </figure>
     </section>
     
     
-    <h2>Let's Get in Touch</h2> 
+    <h2 class="floatLeft">Let's Connect</h2> 
+    <ul class="social hiddenMobile">
+        <li><a href="https://github.com/elowskya" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashleyelowsky/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+
+    <div class="clearFloat"></div>
     <section class="contact-form-holder" id="contact">   
         <form id="survey-form" action="/js/main.js" method="POST">
             <h2 id="title">Send a Note!</h2>
@@ -88,6 +93,6 @@
         &copy;2020 Ashley Elowsky
     </footer>
 </section>
-    
+<script src="https://use.fontawesome.com/eb43aa6040.js"></script>
 </body>
 </html>
