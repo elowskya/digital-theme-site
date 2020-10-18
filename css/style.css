@@ -19,7 +19,7 @@ body {
 }
 
 nav {   
-    padding: 1% 2% 2% 0;
+    padding: 0 2% 1% 0;
 }
 
 nav ul li {
@@ -56,6 +56,10 @@ h1 {
     padding: 2%;
 }
 
+.wrapper {
+    background-color: white;
+}
+
 .thirtyPercent {
     display: inline-block;
     width: 33%;
@@ -74,14 +78,22 @@ main {
     z-index: 0;
 }
 
-main h2 {
+/* main h2 {
     position: absolute;
     top: 43%;
     right: 40%;
     z-index: 2;
     /* color: white; */
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7);
     padding: 0.5%;
+}  */
+
+.projects h2, main h2, .wrapper h2 {
+    color: black;
+    color: rgb(26, 94, 110);
+    font-size: 300%;
+    padding: 2% 0;
+    text-align: center;
 }
 
 main .loweredText {
@@ -89,8 +101,9 @@ main .loweredText {
     top: 58%;
     right: 18%;
     z-index: 2;
-    /* color: white; */
     background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    color: white;
     padding: 0.5%;
 }
 
