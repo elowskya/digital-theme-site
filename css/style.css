@@ -124,9 +124,7 @@ h3 {
    position: absolute;
    top: 25%;
    left: 5%;
-   /* color: rgb(52, 11, 72); */
    text-shadow: 2px 2px 4px black;
-   /* background-color: rgba(0, 0, 0, 0.7); */
    color: white;
    z-index: 3;
    font-size: 150%;
@@ -136,13 +134,10 @@ h4 {
     position: absolute;
     top: 45%;
     left: 5%;
-    /* background-color: rgba(0, 0, 0, 0.7); */
-    /* color: rgb(52, 11, 72); */
     text-shadow: 2px 2px 4px black;
     color: white;
     z-index: 3;
-    font-size: 150%;
-    
+    font-size: 150%;   
 }
 figure img:hover {
     opacity: 0.4;
@@ -161,8 +156,6 @@ figure img:hover {
     border: 2px solid #FFF;
     color: rgb(26, 94, 110);
     float: left;
-    /* height: 35px;
-    width: 35px; */
 }
 
 
@@ -230,6 +223,38 @@ footer {
     background: rgba(26, 94, 110, 0.8);
 }
 
+@media screen and (min-width: 400px) and (max-width: 800px) {
+
+    .projects {
+        position: relative;
+    }
+figure {
+    display: block;
+}
+
+    figure img {
+    display: block;
+    position: static;
+    width: 48vw;
+    float: left;
+    margin: 2px
+    }
+
+    .screen800 {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        font-size: 150%;
+     }
+     
+     .screen800 {
+         position: absolute;
+         top: 45%;
+         left: 5%;
+         font-size: 150%;   
+     }
+}
+
 @media screen and (min-width: 400px) and (max-width: 1009px) {
     main .loweredText {
         font-size: 150%;
@@ -255,6 +280,8 @@ footer {
         margin: 0;
     }
 }
+
+
 
 @media screen and (max-width: 400px) {
     nav {
