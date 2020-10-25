@@ -197,7 +197,7 @@ figure img:hover {
 
 
 
-#name, #email, textarea, button {
+#name, #email, textarea, button, #_replyto {
    border: none;
    border-radius: 5px;
     padding: 2%;
@@ -240,19 +240,15 @@ figure {
     margin: 2px
     }
 
-    .screen800 {
-        position: absolute;
-        top: 15%;
-        left: 5%;
-        font-size: 150%;
-     }
-     
-     .screen800 {
-         position: absolute;
-         top: 45%;
-         left: 5%;
-         font-size: 150%;   
-     }
+
+
+    .topRight {
+        right: 1px;
+    }
+
+    .middleLeft {
+        top: 50%;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 1009px) {
