@@ -11,9 +11,7 @@ nav, section, audio, canvas, video {
 body {
     /* margin: 0 5px 0 5px;
     padding: 0; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background:rgba(187, 177, 197, 0.9);
     background: rgba(26, 94, 110, 0.8);
     color: white;
 }
@@ -58,6 +56,7 @@ h1 {
 
 .wrapper {
     background-color: white;
+    margin: 0 auto;
 }
 
 .thirtyPercent {
@@ -104,14 +103,22 @@ main .loweredText {
 
 .projects {
     margin: 0 1%;
+
+}
+
+.projects p {
+    color: rgb(26, 94, 110);
+    text-align: center;
+    padding-bottom: 1%;
 }
 
 figure {
     display: inline-block;
     border-radius: 5%;
-    position: relative;
-    
+    position: relative;  
 }
+
+
 figure img {
     display: inline-block;
     width: 32vw;
@@ -229,7 +236,7 @@ footer {
         position: relative;
     }
 figure {
-    display: block;
+    display: inline-block;
 }
 
     figure img {
@@ -237,17 +244,7 @@ figure {
     position: static;
     width: 48vw;
     float: left;
-    margin: 2px
-    }
-
-
-
-    .topRight {
-        right: 1px;
-    }
-
-    .middleLeft {
-        top: 50%;
+    margin: 0;
     }
 }
 
