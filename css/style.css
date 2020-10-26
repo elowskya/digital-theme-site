@@ -16,6 +16,11 @@ body {
     color: white;
 }
 
+span a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {   
     padding: 0 2% 1% 0;
 }
